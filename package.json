@@ -1,0 +1,30 @@
+{
+  "name": "abu-cli",
+  "version": "1.0.1",
+  "description": "abu-cli脚手架开发",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "abucli": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuhaohao1234/abu-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuhaohao1234/abu-cli/issues"
+  },
+  "homepage": "https://github.com/wuhaohao1234/abu-cli#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "terminal-kit": "^2.0.7"
+  }
+}
